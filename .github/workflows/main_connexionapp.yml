@@ -60,7 +60,8 @@ jobs:
         with:
           app-name: 'connexionapp'
           slot-name: 'Production'
-          package: www
+          package: .
           
+
 
 
