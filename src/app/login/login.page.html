@@ -1,0 +1,39 @@
+<ion-header >
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="Back"></ion-back-button>
+    </ion-buttons>
+    <ion-title>connexion</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+  <ion-grid >
+    <ion-row justify-content-center>
+      <ion-col align-self-center  size-md="6" size-lg="5" size-xs="12">
+        <div class="ion-text-center">
+          <br><br><br>
+          <h4>Login Form</h4>
+        </div>
+       <br><br><br><br>
+        <div class="form">
+          <ion-item>
+            <ion-input placeholder=" enter email" type="email" >
+              <ion-icon name="email-outline">
+              </ion-icon></ion-input>
+          </ion-item><br>
+          <ion-item>
+            <ion-input placeholder=" enter password" type="password" >
+              <ion-icon name="look-closed-outline">
+              </ion-icon></ion-input>
+          </ion-item><br>
+        </div>
+        <div pandding>
+          <ion-button size="large" expand="block">login</ion-button>
+          <a [routerLink]="['/forget-password']" class="small-text">forget password</a> 
+        </div>
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
+</ion-content>
